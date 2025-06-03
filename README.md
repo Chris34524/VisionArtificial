@@ -24,3 +24,13 @@ cd vision-inspector
 # 2. Crea el entorno Conda
 conda env create -f environment.yml
 conda activate vision-2025
+
+---
+
+## 🛡️ Checklist de Ética de Datos
+- [ ] **Consentimiento:**  Solo uso imágenes capturadas en planta con aprobación de la empresa y sin información personal identificable.  
+- [ ] **Privacidad:**  Recorto o difumino cualquier rostro, matrícula o dato sensible antes de subirlos al repositorio.  
+- [ ] **Propósito claro:**  Las imágenes se emplean exclusivamente para mejorar la calidad del producto FOTON, no para fines comerciales externos.  
+- [ ] **Almacenamiento seguro:**  Los datasets completos viven en servidores internos / DVC remoto con acceso restringido.  
+- [ ] **Trazabilidad:**  Versiono cambios de dataset con DVC para saber siempre qué imágenes entrenaron cada modelo.
+
