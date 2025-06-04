@@ -1,0 +1,6 @@
+# Imágenes y artefactos pesados
+data/
+outputs/
+runs/
+*.pt        # pesos de PyTorch
+*.pth       # variante de extensión
